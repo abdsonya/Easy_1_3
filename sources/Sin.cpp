@@ -3,7 +3,7 @@
 
 double Sinus(double val)
 {
-    double eps = 0.0001;
+    const double eps = 0.0001;
     double rowElement; 
     double deviation = val;
     double sinus = val;
