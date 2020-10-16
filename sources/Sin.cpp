@@ -4,7 +4,8 @@
 double Sinus(double val)
 {
     double eps = 0.0001;
-    double rowElement, deviation = val;
+    double rowElement; 
+    double deviation = val;
     double sinus = val;
     int counter = 1;
     while (abs(deviation) > eps)
